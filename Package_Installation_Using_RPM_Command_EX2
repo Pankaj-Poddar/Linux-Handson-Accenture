@@ -1,0 +1,4 @@
+sudo su root
+cd /opt/software
+rpm -ivh unzip -6.0-20.cl7.x86_64.rpm
+rpm -e tcdump
