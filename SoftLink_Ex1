@@ -1,0 +1,2 @@
+sudo mkdir /opt/userdata
+sudo ln -s /opt/userdata /home/sdata
