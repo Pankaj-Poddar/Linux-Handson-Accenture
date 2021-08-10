@@ -1,0 +1,5 @@
+sudo -i
+cd /opt/software/vi_ModifyContent_Ex1.txt /vifile.txt
+sed -i 's/output/printout/g' /vifile.txt
+sed -i 's/David MacKenzie/DAVID MACKENZIE/' /vifile.txt
+sed -i 's/leading//g' /vifile.txt
