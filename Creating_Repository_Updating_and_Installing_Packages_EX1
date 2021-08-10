@@ -1,0 +1,13 @@
+sudo su root
+touch /etc/yum.repos.d/centos.repo
+cd /etc/yum.repos.d
+vi centos.repo
+[centos]
+name=centos
+baseurl=http://mirror.centos.org/centos-7/7/os/x86_64/
+enabled=1
+gpgcheck=1
+:wq
+yum install centos-release
+yum install centos-bookmarks
+yum install centos-indexhtml
