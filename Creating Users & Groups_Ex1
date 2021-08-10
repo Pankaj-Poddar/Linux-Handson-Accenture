@@ -1,0 +1,6 @@
+sudo useradd -g manager -G sales -s /bin/sh -u 2001 josh
+sudo passwd josh
+password : changeit
+sudo useradd -g sales -G manager -s /bin/bash -u 2002 guru
+sudo passwd guru
+password : changeit
