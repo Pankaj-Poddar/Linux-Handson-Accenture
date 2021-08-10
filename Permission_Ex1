@@ -1,0 +1,10 @@
+sudo mkdir /opt/common
+sudo chown prjmgr /opt/common
+sudo chgrp developers /opt/common
+sudo chmod ug+rwx /opt/common
+sudo chmod o-rwx /opt/common
+sudo chmod g+s /opt/common
+su -prjmgr
+cd /opt/common
+touch sgidfile
+ls -ltr
