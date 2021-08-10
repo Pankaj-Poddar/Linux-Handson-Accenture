@@ -1,0 +1,4 @@
+sudo su root
+cd /etc/yum.repos.d/
+yum repolist all
+yum-config-manager --disable ScientificLinux
