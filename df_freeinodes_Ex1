@@ -1,0 +1,9 @@
+sudo su
+touch /tmp/inodesallocated
+cat > /tmp/inodesallocated
+4194304
+^C [ctrl+c]
+touch /tmp/rootsize
+cat > /tmp/rootsize
+8182
+^C
