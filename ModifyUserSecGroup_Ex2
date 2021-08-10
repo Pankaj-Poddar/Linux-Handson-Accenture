@@ -1,0 +1,5 @@
+sudo useradd sam
+sudo useradd beam
+sudo groupadd friends
+sudo usermod -G friends sam
+sudo usermod -G friends beam
