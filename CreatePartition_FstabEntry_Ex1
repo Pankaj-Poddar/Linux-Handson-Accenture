@@ -1,0 +1,21 @@
+sudo su
+fdisk -l
+fdisk /dev/nvme0n1
+m
+n
+l
+first secor : Press Enter
+Last sector : +1G
+p
+w
+partprobe
+mkfs.ext4 /dev/nvme0n1p5
+mkdir /part1
+mount /dev/nvme0n1p5 /part1
+blkid
+  "Note down UUID"
+vi /etc/fstab
+i
+"after tmfs line paste the UUID"
+press esc
+:wq
