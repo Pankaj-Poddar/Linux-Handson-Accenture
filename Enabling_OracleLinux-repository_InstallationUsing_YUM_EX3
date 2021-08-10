@@ -1,0 +1,11 @@
+sudo su root
+cd /etc/yum.repos.d/
+ls
+OracleLinux.repo
+vi OracleLinux.repo
+i
+enable=1
+gpgcheck=1
+esc+:wq
+yum install wget
+yum install zip
