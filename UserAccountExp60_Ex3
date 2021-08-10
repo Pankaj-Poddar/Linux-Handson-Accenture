@@ -1,0 +1,5 @@
+sudo useradd -e 2021-10-01 user1age60
+sudo useradd -e 2021-10-01 user2age60
+
+
+Note: Assume todays date as 01 AUG 2021
