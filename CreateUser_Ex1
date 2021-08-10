@@ -1,0 +1,7 @@
+sudo -i
+useradd tom
+
+
+OR
+
+sudo adduser tom
