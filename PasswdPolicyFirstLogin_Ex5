@@ -1,0 +1,2 @@
+sudo useradd firstuser
+sudo passwd -e firstuser
