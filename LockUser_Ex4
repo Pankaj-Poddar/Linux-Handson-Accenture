@@ -1,0 +1,4 @@
+sudo useradd nile
+sudo passwd nile
+password : changeit
+sudo usermod -L nile
