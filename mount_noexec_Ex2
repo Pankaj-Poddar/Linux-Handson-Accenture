@@ -1,0 +1,3 @@
+sudo su
+touch /tmp/optexec
+echo "yes" >> /tmp/optexec
